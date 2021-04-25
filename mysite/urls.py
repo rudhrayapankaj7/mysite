@@ -20,6 +20,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home', views.home.html),
+    path('hello', views.hello.html),
 ]
 
 class Dreamreal(models.Model):
