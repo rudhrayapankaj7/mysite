@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home', views.home.html),
     path('hello', views.hello.html),
+    path("Nothig is happ")
 ]
 
 class Dreamreal(models.Model):
