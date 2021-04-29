@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home', views.home.html),
     path('hello', views.hello.html),
+    path("Nothig is happ")
 ]
 
 class Dreamreal(models.Model):
@@ -44,6 +45,9 @@ urlpatterns = [
 
 
 class Dreamreal(models.Model):
+        
+        
+  class Dreamreal(models.Model):
 
    website = models.CharField(max_length = 50)
    mail = models.CharField(max_length = 50)
