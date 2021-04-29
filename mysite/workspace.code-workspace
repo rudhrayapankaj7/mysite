@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Python\\Python39\\python.exe"
+	}
+}
